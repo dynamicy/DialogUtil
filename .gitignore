@@ -35,3 +35,6 @@ captures/
 # Intellij
 *.iml
 .idea/
+
+# github properties
+github.properties
