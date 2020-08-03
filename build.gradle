@@ -21,6 +21,11 @@ allprojects {
     }
 }
 
+ext {
+    // Android
+    materialVersion = "1.2.0-alpha06"
+}
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }

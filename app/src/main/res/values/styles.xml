@@ -7,4 +7,14 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- Alert Dialog Style -->
+    <style name="AlertDialogCustom" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+        <!-- Dialog Title text color -->
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <!-- Dialog Message text color -->
+        <item name="android:textColorPrimary">@color/colorPrimaryDark</item>
+        <!-- Dialog Button text color -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+    </style>
+
 </resources>
